@@ -4,9 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --base-href 'https://zaralexa.github.io/presidencia-ui/'",
     "test": "ng test",
     "lint": "ng lint",
+    "deploy": "ngh",
     "e2e": "ng e2e"
   },
   "private": true,
