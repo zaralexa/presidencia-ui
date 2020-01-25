@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+body {
+  background-color: white;
+}
+
+.border-hz {
+  border: solid 1px #2d2d2d;
+  background-color: #562e84 !important;
+  color: white;
+}
+
+a {
+  color: white;
+  &:visited {
+    color: white;
+  }
+}
